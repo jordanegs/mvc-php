@@ -1,0 +1,11 @@
+CREATE DATABASE `apli-distri`;
+
+USE `apli-distri`;
+
+CREATE TABLE usuario(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	nombre VARCHAR(30) NOT NULL,
+	apellido VARCHAR(30) NOT NULL,
+	correo VARCHAR(50) UNIQUE NOT NULL,
+	clave VARCHAR(30) NOT NULL
+);
