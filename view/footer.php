@@ -1,6 +1,6 @@
-    <footer class="footer py-3 bg-primary">
+    <footer class="footer py-2 bg-primary">
         <div class="container text-center">
-            <span class="text-white">Desarrollado por <strong>Jordan Gonzales Sanchez</strong></span>
+            <span class="text-white">Aplicaciones Distribuidas - <strong>UNS</strong></span>
         </div>
     </footer>
 
@@ -10,3 +10,5 @@
 
 </body>
 </html>
+
+

@@ -10,7 +10,6 @@
                 <th scope="col">Apellido</th>
                 <th scope="col">Correo</th>
                 <th scope="col">Contraseña</th>
-                <th scope="col">Acción</th>
             </tr>
             </thead>
             <tbody>
@@ -21,10 +20,7 @@
                 echo "<td>$usuario->nombre</td>";
                 echo "<td>$usuario->apellido</td>";
                 echo "<td>$usuario->correo</td>";
-                echo "<td>$usuario->clave</td>";
-                echo "<td>
-                        <a class='btn btn-primary' href='?c=usuario&a=reset&email=$usuario->correo'>Recuperar Contraseña</a>
-                  </td>";
+                echo "<td>********</td>";
                 echo "</tr>";
             }
             ?>

@@ -7,5 +7,7 @@ CREATE TABLE usuario(
 	nombre VARCHAR(30) NOT NULL,
 	apellido VARCHAR(30) NOT NULL,
 	correo VARCHAR(50) UNIQUE NOT NULL,
-	clave VARCHAR(30) NOT NULL
+	clave VARCHAR(30) NOT NULL,
+    verificar VARCHAR(32) DEFAULT NULL
 );
+

@@ -3,17 +3,17 @@
         <div class="col-lg-6 mol-md-8">
             <div class="card p-5 shadow">
                 <h1 class="text-center pb-3">Inicio de Sesión</h1>
-                <form action="./?c=login&a=acceso" method="post">
+                <form action="./?c=auth&a=acceso" method="post">
                     <div class="form-group">
                         <label>Correo: </label>
-                        <input type="email" class="form-control" name="correo" placeholder="Ingrese el nombre de Usuario" required autofocus>
+                        <input type="email" class="form-control" name="correo" placeholder="Ingrese el correo" required autofocus>
                     </div>
                     <div class="form-group">
                         <label>Contraseña: </label>
                         <input type="password" class="form-control" name="clave" placeholder="Ingrese la contraseña" required>
                     </div>
                     <div class="text-center">
-                        <a href="#">¿Olvidaste Contraseña?</a>
+                        <a href="./?c=auth&a=restablacer">¿Olvidaste Contraseña?</a>
                     </div>
                     <br />
                     <div class="text-center">

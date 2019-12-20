@@ -11,7 +11,7 @@
                         <?php echo $_SESSION['nombres'] ?>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="./?c=login&a=salir">Salir</a>
+                        <a class="dropdown-item" href="./?c=auth&a=salir">Salir</a>
                     </div>
                 </li>
             </ul>
