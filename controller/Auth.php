@@ -1,7 +1,7 @@
 <?php
 require_once 'model/Usuario.php';
 
-class LoginController {
+class AuthController {
     public $model;
 
     public function __construct() {

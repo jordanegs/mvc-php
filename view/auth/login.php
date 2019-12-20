@@ -6,12 +6,16 @@
                 <form action="./?c=login&a=acceso" method="post">
                     <div class="form-group">
                         <label>Correo: </label>
-                        <input type="text" class="form-control" name="correo" placeholder="Ingrese el nombre de Usuario" required autofocus>
+                        <input type="email" class="form-control" name="correo" placeholder="Ingrese el nombre de Usuario" required autofocus>
                     </div>
                     <div class="form-group">
                         <label>Contraseña: </label>
                         <input type="password" class="form-control" name="clave" placeholder="Ingrese la contraseña" required>
                     </div>
+                    <div class="text-center">
+                        <a href="#">¿Olvidaste Contraseña?</a>
+                    </div>
+                    <br />
                     <div class="text-center">
                         <button type="submit" class="btn btn-outline-primary">Acceder</button>
                     </div>
